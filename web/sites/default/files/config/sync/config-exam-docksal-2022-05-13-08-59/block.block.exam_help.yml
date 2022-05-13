@@ -1,0 +1,22 @@
+uuid: ae5ca4c1-76d9-4ffd-a714-251317cda3af
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - exam
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: exam_help
+theme: exam
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

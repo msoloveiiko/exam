@@ -1,0 +1,25 @@
+_core:
+  default_config_hash: 0yJNd4uWv8TzhYEPQBDiApPL2e8ar88kBmQrzDjNCqc
+nid_list: {  }
+translation_sync: true
+search: false
+type: hidden
+content_types:
+  about: none
+  clients: none
+  contact: none
+  news: none
+  page: all
+  projects: none
+  servises: none
+  team: none
+content_type_modes:
+  about: {  }
+  clients: {  }
+  contact: {  }
+  news: {  }
+  page:
+    - full
+  projects: {  }
+  servises: {  }
+  team: {  }

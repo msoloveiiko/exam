@@ -1,0 +1,46 @@
+@import "fonts.scss";
+@import "_variables.scss";
+
+.field--type-webform {
+    margin-right: 30px;
+    .form-text {
+        text-transform: uppercase;
+        padding: 20px 15px;
+        font-size: 16px;
+        width: 487px;
+        border: 1px solid black;
+    }
+    .form-email {
+        text-transform: uppercase;
+        padding: 20px 15px;
+        width: 487px;
+        border: 1px solid black;
+    }
+    .form-tel {
+        text-transform: uppercase;
+        padding: 20px 15px;
+        width: 487px;
+        border: 1px solid black;
+    }
+    .form-textarea {
+        width: 487px;
+        height: 250px;
+        text-transform: uppercase;
+        padding: 20px 15px;
+        resize: none;
+        border: 1px solid black;
+    }
+    .form-wrapper {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .webform-button--submit {
+        text-transform: uppercase;
+        padding: 18px 30px;
+        background-color: $orange;
+        color: #ffffff;
+        border: 0;
+        border-radius: 3px;
+        font-size: 20px;
+    }
+}

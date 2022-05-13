@@ -1,0 +1,52 @@
+uuid: 91f08c77-9ce4-4106-88be-b4c4068de33b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.servises.body
+    - field.field.node.servises.field_img1
+    - field.field.node.servises.layout_builder__layout
+    - node.type.servises
+  module:
+    - media_library
+    - text
+id: node.servises.default
+targetEntityType: node
+bundle: servises
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_img1:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  layout_builder__layout: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
+  url_redirects: true

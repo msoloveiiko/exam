@@ -1,0 +1,29 @@
+uuid: ccfd30ed-52e9-4a3a-aebe-d302582245da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dev_ty
+    - node.type.projects
+    - taxonomy.vocabulary.dev_ty
+id: node.projects.field_dev_ty
+field_name: field_dev_ty
+entity_type: node
+bundle: projects
+label: 'dev type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      dev_ty: dev_ty
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

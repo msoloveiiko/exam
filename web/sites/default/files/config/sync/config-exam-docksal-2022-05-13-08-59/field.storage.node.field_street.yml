@@ -1,0 +1,21 @@
+uuid: ae15ae90-d5d0-427d-9fc2-7ad18b7a1f00
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_street
+field_name: field_street
+entity_type: node
+type: string
+settings:
+  max_length: 100
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

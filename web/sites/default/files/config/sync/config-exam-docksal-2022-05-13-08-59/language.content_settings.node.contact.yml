@@ -1,0 +1,11 @@
+uuid: 23cfa8b5-416f-491b-beef-bd5cef1fecab
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact
+target_entity_type_id: node
+target_bundle: contact
+default_langcode: site_default
+language_alterable: false

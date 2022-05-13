@@ -1,0 +1,8 @@
+uuid: 8e8ea383-6d35-4791-a9d3-a9f925b0395c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Dev type'
+vid: dev_ty
+description: ''
+weight: 0

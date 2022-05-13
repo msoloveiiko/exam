@@ -1,0 +1,241 @@
+uuid: aa2029b3-33c6-46e7-9c61-98c9a8900e2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contact.body
+    - field.field.node.contact.field_city
+    - field.field.node.contact.field_country
+    - field.field.node.contact.field_email
+    - field.field.node.contact.field_maps
+    - field.field.node.contact.field_number
+    - field.field.node.contact.field_street
+    - node.type.contact
+  module:
+    - layout_builder
+    - simple_gmap
+    - telephone
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          06cdcf63-4806-4cbd-962c-a6854f69ca83:
+            uuid: 06cdcf63-4806-4cbd-962c-a6854f69ca83
+            region: content
+            configuration:
+              id: 'extra_field_block:node:contact:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          b78d1aca-1cce-45bb-9c17-46d0437a30b3:
+            uuid: b78d1aca-1cce-45bb-9c17-46d0437a30b3
+            region: content
+            configuration:
+              id: 'field_block:node:contact:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          2f27181c-c85b-4426-86bf-4a099fe1724f:
+            uuid: 2f27181c-c85b-4426-86bf-4a099fe1724f
+            region: content
+            configuration:
+              id: 'field_block:node:contact:field_city'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          0e837261-1bd2-42f2-a614-37d6563eef7c:
+            uuid: 0e837261-1bd2-42f2-a614-37d6563eef7c
+            region: content
+            configuration:
+              id: 'field_block:node:contact:field_country'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          5ae80405-9d61-4561-b3e8-93075b0abf89:
+            uuid: 5ae80405-9d61-4561-b3e8-93075b0abf89
+            region: content
+            configuration:
+              id: 'field_block:node:contact:field_email'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: inline
+                settings: {  }
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          6a88141a-209f-4f0a-920e-f00493a35247:
+            uuid: 6a88141a-209f-4f0a-920e-f00493a35247
+            region: content
+            configuration:
+              id: 'field_block:node:contact:field_maps'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: simple_gmap
+                label: hidden
+                settings:
+                  include_map: true
+                  include_static_map: false
+                  include_link: false
+                  include_text: false
+                  iframe_height: '200'
+                  iframe_width: '200'
+                  iframe_title: ''
+                  static_scale: 1
+                  zoom_level: 14
+                  link_text: 'View larger map'
+                  map_type: m
+                  langcode: en
+                  apikey: ''
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          c1aa9f23-2025-4b4e-b47c-2549ce534715:
+            uuid: c1aa9f23-2025-4b4e-b47c-2549ce534715
+            region: content
+            configuration:
+              id: 'field_block:node:contact:field_number'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: telephone_link
+                label: hidden
+                settings:
+                  title: ''
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+          cafcebbe-0252-44b5-aa4b-2fa054e05b1f:
+            uuid: cafcebbe-0252-44b5-aa4b-2fa054e05b1f
+            region: content
+            configuration:
+              id: 'field_block:node:contact:field_street'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
+        third_party_settings: {  }
+id: node.contact.default
+targetEntityType: node
+bundle: contact
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_city:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_country:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_email:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_maps:
+    type: simple_gmap
+    label: hidden
+    settings:
+      include_map: true
+      include_static_map: false
+      include_link: false
+      include_text: false
+      iframe_height: '200'
+      iframe_width: '200'
+      iframe_title: ''
+      static_scale: 1
+      zoom_level: 14
+      link_text: 'View larger map'
+      map_type: m
+      langcode: en
+      apikey: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_number:
+    type: telephone_link
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_street:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,22 @@
+uuid: 789a1261-8cdb-4df1-a737-961467ee512d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team.status
+field_name: status
+entity_type: node
+bundle: team
+label: Опубліковано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

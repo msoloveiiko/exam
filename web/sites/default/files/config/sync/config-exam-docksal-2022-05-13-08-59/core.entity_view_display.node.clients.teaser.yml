@@ -1,0 +1,26 @@
+uuid: 34334cc4-6b2d-4796-971f-ac8d596ce5ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.clients.field_img5
+    - field.field.node.clients.layout_builder__layout
+    - node.type.clients
+  module:
+    - user
+id: node.clients.teaser
+targetEntityType: node
+bundle: clients
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_img5: true
+  langcode: true
+  layout_builder__layout: true
+  search_api_excerpt: true

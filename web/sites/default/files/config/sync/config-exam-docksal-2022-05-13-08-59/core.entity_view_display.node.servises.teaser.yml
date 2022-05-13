@@ -1,0 +1,28 @@
+uuid: c6aea033-fad4-4ab2-91b5-ac5840020c96
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.servises.body
+    - field.field.node.servises.field_img1
+    - field.field.node.servises.layout_builder__layout
+    - node.type.servises
+  module:
+    - user
+id: node.servises.teaser
+targetEntityType: node
+bundle: servises
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_img1: true
+  langcode: true
+  layout_builder__layout: true
+  search_api_excerpt: true

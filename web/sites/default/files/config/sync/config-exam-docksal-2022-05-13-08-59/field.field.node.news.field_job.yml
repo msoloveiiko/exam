@@ -1,0 +1,19 @@
+uuid: f48a5b53-8c2e-4db6-8635-bd681cb07982
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job
+    - node.type.news
+id: node.news.field_job
+field_name: field_job
+entity_type: node
+bundle: news
+label: Job
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

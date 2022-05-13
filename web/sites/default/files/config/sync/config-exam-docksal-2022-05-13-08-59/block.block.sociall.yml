@@ -1,0 +1,25 @@
+uuid: 6dd10f86-ce3a-4a3a-bd77-701c13d4e989
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dfc59375-e957-45a1-ac2d-5c67eb102558'
+  module:
+    - block_content
+  theme:
+    - exam
+id: sociall
+theme: exam
+region: social
+weight: 0
+provider: null
+plugin: 'block_content:dfc59375-e957-45a1-ac2d-5c67eb102558'
+settings:
+  id: 'block_content:dfc59375-e957-45a1-ac2d-5c67eb102558'
+  label: Sociall
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

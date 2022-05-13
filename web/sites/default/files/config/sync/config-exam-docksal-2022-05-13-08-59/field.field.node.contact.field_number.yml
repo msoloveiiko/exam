@@ -1,0 +1,21 @@
+uuid: a3188923-0221-4527-bedb-f2e7b8fa134c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.contact
+  module:
+    - telephone
+id: node.contact.field_number
+field_name: field_number
+entity_type: node
+bundle: contact
+label: Number
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

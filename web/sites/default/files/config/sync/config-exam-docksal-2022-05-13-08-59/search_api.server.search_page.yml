@@ -1,0 +1,14 @@
+uuid: be618e34-c2b5-4ce9-8ed4-39b742baf605
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: search_page
+name: 'Search Page'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: words

@@ -1,0 +1,23 @@
+uuid: bada9470-ff8b-4b5c-8c0c-1bcbfdb8c03f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.servises
+  module:
+    - text
+id: node.servises.body
+field_name: body
+entity_type: node
+bundle: servises
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

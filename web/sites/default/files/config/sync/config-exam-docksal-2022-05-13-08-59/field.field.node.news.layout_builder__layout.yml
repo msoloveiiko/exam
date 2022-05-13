@@ -1,0 +1,21 @@
+uuid: e02b812d-6ddd-4cac-89f2-e6b6403c18a0
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.news
+  module:
+    - layout_builder
+id: node.news.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: news
+label: Макет
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

@@ -1,0 +1,25 @@
+uuid: cadbe099-7e9c-49a9-8c5a-029015574ac5
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0dfcd38d-15d3-4ff3-80f0-07f95e563326'
+  module:
+    - block_content
+  theme:
+    - exam
+id: creat
+theme: exam
+region: creativity
+weight: 0
+provider: null
+plugin: 'block_content:0dfcd38d-15d3-4ff3-80f0-07f95e563326'
+settings:
+  id: 'block_content:0dfcd38d-15d3-4ff3-80f0-07f95e563326'
+  label: Creat
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

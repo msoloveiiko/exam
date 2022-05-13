@@ -1,0 +1,29 @@
+uuid: 5edab424-b020-420f-ab00-5d9fb8887070
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_img5
+    - media.type.image
+    - node.type.clients
+id: node.clients.field_img5
+field_name: field_img5
+entity_type: node
+bundle: clients
+label: img5
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

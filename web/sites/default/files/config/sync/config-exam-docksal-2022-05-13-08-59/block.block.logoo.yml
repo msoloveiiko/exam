@@ -1,0 +1,25 @@
+uuid: eb4dd1d8-b3b4-4cf6-8160-9af489f79af8
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50b21ba9-66e0-48fb-a525-e209ba825a9b'
+  module:
+    - block_content
+  theme:
+    - exam
+id: logoo
+theme: exam
+region: logo
+weight: 0
+provider: null
+plugin: 'block_content:50b21ba9-66e0-48fb-a525-e209ba825a9b'
+settings:
+  id: 'block_content:50b21ba9-66e0-48fb-a525-e209ba825a9b'
+  label: Logoo
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

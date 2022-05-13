@@ -1,0 +1,45 @@
+uuid: 5cc2e67d-1a3c-47a9-873b-9f3036dc0e70
+langcode: uk
+status: true
+dependencies:
+  config:
+    - search_api.server.search_page
+  module:
+    - node
+    - search_api
+id: index
+name: index
+description: ''
+read_only: false
+field_settings:
+  title:
+    label: Заголовок
+    datasource_id: 'entity:node'
+    property_path: title
+    type: text
+    dependencies:
+      module:
+        - node
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected:
+        - page
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  entity_type: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  cron_limit: 50
+  index_directly: true
+  track_changes_in_references: true
+server: search_page

@@ -1,0 +1,19 @@
+uuid: 9f99fac9-fb61-47e6-b6ab-13dee139eb00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_full_na
+    - node.type.news
+id: node.news.field_full_na
+field_name: field_full_na
+entity_type: node
+bundle: news
+label: 'Full name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

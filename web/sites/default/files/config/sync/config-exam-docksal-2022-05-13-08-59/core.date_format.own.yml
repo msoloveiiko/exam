@@ -1,0 +1,8 @@
+uuid: 154ea6d6-1733-465a-905a-1f45908e4f0d
+langcode: en
+status: true
+dependencies: {  }
+id: own
+label: own
+locked: false
+pattern: 'M d Y'

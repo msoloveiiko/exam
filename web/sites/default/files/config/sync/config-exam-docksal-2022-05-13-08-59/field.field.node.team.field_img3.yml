@@ -1,0 +1,29 @@
+uuid: 75cd7d35-9d3e-4d9c-aefd-4296e4adaea6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_img3
+    - media.type.image
+    - node.type.team
+id: node.team.field_img3
+field_name: field_img3
+entity_type: node
+bundle: team
+label: img3
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

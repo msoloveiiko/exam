@@ -1,0 +1,20 @@
+uuid: b647e9f6-6080-4711-9757-5419dd771c5a
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - exam
+id: vkladki
+theme: exam
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: cd34e340-c344-4c1a-a879-144e2a8de354
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team
+target_entity_type_id: node
+target_bundle: team
+default_langcode: site_default
+language_alterable: false

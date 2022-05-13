@@ -1,0 +1,15 @@
+uuid: 3b0417f6-f406-4870-ba1e-a05e778a7d2e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - flag.flag.like
+  module:
+    - flag
+id: flag_action.like_unflag
+label: D
+type: node
+plugin: 'flag_action:like_unflag'
+configuration:
+  flag_id: like
+  flag_action: unflag

@@ -1,0 +1,21 @@
+uuid: bd98f2e4-c3ab-4715-ac3e-58953900a063
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.clients
+  module:
+    - layout_builder
+id: node.clients.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: clients
+label: Макет
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

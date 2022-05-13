@@ -1,0 +1,90 @@
+uuid: f2a7734e-c3ff-4069-b512-e37b5025fb6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.servises.body
+    - field.field.node.servises.field_img1
+    - field.field.node.servises.layout_builder__layout
+    - node.type.servises
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          614185e9-decf-4062-834e-f6c06f97c8f3:
+            uuid: 614185e9-decf-4062-834e-f6c06f97c8f3
+            region: content
+            configuration:
+              id: 'field_block:node:servises:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          411c1868-1ca2-4dfb-b5f1-c005b309aead:
+            uuid: 411c1868-1ca2-4dfb-b5f1-c005b309aead
+            region: content
+            configuration:
+              id: 'field_block:node:servises:field_img1'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Servises Home Block'
+          context_mapping: {  }
+        components: {  }
+        third_party_settings: {  }
+id: node.servises.default
+targetEntityType: node
+bundle: servises
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_img1:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true
+  links: true
+  search_api_excerpt: true

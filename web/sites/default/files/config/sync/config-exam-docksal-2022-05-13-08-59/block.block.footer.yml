@@ -1,0 +1,25 @@
+uuid: a14240ba-e2d0-4f2b-8bcc-a09fc7114956
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f1b08ee3-7485-4636-99bb-94b600865273'
+  module:
+    - block_content
+  theme:
+    - exam
+id: footer
+theme: exam
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:f1b08ee3-7485-4636-99bb-94b600865273'
+settings:
+  id: 'block_content:f1b08ee3-7485-4636-99bb-94b600865273'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

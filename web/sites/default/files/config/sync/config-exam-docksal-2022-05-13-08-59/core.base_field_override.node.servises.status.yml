@@ -1,0 +1,22 @@
+uuid: 7509e380-93eb-4dab-b4de-8ced17ed268d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.servises
+id: node.servises.status
+field_name: status
+entity_type: node
+bundle: servises
+label: Опубліковано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

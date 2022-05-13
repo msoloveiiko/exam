@@ -1,0 +1,21 @@
+uuid: 9ff67f7f-ff61-48a4-831b-0cf135e8d258
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.projects
+  module:
+    - layout_builder
+id: node.projects.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: projects
+label: Макет
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section
